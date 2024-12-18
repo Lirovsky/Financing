@@ -29,7 +29,7 @@ export default function Navbar() {
           <NavLink
             to={item.to}
             key={item.id}
-            className="px-2 py-3 text-lg text-white/70 hover:text-white"
+            className="px-2 py-3 text-lg text-white/80 hover:text-white"
           >
             {item.title}
           </NavLink>
@@ -49,7 +49,7 @@ export default function Navbar() {
       <ul
         className={
           menu
-            ? "fixed left-0 top-0 flex h-full w-7/12 flex-col border-r border-r-gray-100 bg-blue-700 bg-img bg-cover bg-left bg-no-repeat duration-500 ease-in-out md:hidden"
+            ? "fixed left-0 top-0 flex h-full w-7/12 flex-col border-r border-r-gray-100 bg-gradient-to-r from-cyan-500 to-blue-500 duration-500 ease-in-out md:hidden"
             : "fixed -left-full bottom-0 top-0 flex w-7/12 flex-col duration-500 ease-in-out"
         }
       >
@@ -60,7 +60,7 @@ export default function Navbar() {
             onClick={handleNav}
             to={item.to}
             key={item.id}
-            className="ms-3 px-2 py-3 text-2xl text-white/70 hover:text-white"
+            className="ms-3 px-2 py-3 text-2xl text-white/80 hover:text-white"
           >
             {item.title}
           </NavLink>
