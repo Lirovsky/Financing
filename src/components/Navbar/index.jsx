@@ -37,7 +37,7 @@ export default function Navbar() {
       </ul>
 
       <div className="hidden items-center gap-x-2 md:flex">
-        <FaPhone className="h-12 w-12 rounded-full bg-blue-500 p-3" />
+        <FaPhone className="h-10 w-10 rounded-full border-2 bg-transparent p-3" />
         <p className="text-lg">123-489-9381</p>
       </div>
 
@@ -49,7 +49,7 @@ export default function Navbar() {
       <ul
         className={
           menu
-            ? "bg-img fixed left-0 top-0 flex h-full w-7/12 flex-col border-r border-r-gray-100 bg-blue-700 bg-cover bg-left bg-no-repeat duration-500 ease-in-out md:hidden"
+            ? "fixed left-0 top-0 flex h-full w-7/12 flex-col border-r border-r-gray-100 bg-blue-700 bg-img bg-cover bg-left bg-no-repeat duration-500 ease-in-out md:hidden"
             : "fixed -left-full bottom-0 top-0 flex w-7/12 flex-col duration-500 ease-in-out"
         }
       >

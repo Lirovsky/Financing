@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 
 export default function DefaultLayout() {
   return (
-    <div className="bg-img h-full bg-blue-700 bg-cover bg-top bg-no-repeat">
+    <div className="bg-gradient-to-r from-cyan-500 to-blue-500">
       <Navbar />
       <Outlet />
     </div>

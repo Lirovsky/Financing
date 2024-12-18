@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function WannaTalk() {
   return (
-    <div className="bg-filter bg-cover bg-fixed bg-center bg-no-repeat md:px-10">
+    <div className="md:px-10">
       <div className="container mx-auto py-20 text-white lg:flex">
         <div className="mx-auto flex flex-col items-center justify-between gap-10 md:flex-row">
           <div className="w-8/12 text-center md:text-left">
